@@ -3,13 +3,9 @@ layout: layout.pug
 navigationTitle:  Adding Agent Nodes
 title: Adding Agent Nodes
 menuWeight: 800
-excerpt: This section shows you how to add agent nodes to an existing DC/OS cluster.
-
-
+excerpt:  Adding agent nodes to an existing DC/OS cluster
 enterprise: false
 ---
-
-<!-- The source repo for this topic is https://github.com/dcos/dcos-docs -->
 
 
 

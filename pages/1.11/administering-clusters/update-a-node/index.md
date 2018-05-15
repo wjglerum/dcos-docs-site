@@ -3,12 +3,10 @@ layout: layout.pug
 navigationTitle:  Updating Nodes
 title: Updating Nodes
 menuWeight: 801
-excerpt: Learn to update agent nodes in an active DC/OS cluster.
+excerpt: Updating agent nodes in an active DC/OS cluster
 
 enterprise: false
 ---
-
-<!-- The source repo for this topic is https://github.com/dcos/dcos-docs -->
 
 You can update agent nodes in an active DC/OS cluster by using maintenance windows or by manually killing agents.
 

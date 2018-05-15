@@ -3,7 +3,7 @@ layout: layout.pug
 navigationTitle:  Finding a Public Agent IP
 title: Finding a Public Agent IP
 menuWeight: 3
-excerpt: Learn to find a public agent IP address.
+excerpt: Finding a public agent IP address
 enterprise: false
 ---
 
