@@ -7,20 +7,12 @@ excerpt: List of third party open source software provided by Mesosphere
 ---
 
 
-The below table lists the third party open source software which is provided by Mesosphere in connection with Mesosphere DC/OS.
+Mesosphere provides third party open source software in support of Mesosphere DC/OS. This table lists all such provided software.
 
 <table class="table">
 		<tr>
 			<th>Software</th>
 			<th>License</th>
-		</tr>
-    <tr>
-			<td>dcos-ca</td>
-			<td><a href="https://github.com/cloudflare/cfssl/blob/master/LICENSE">Cloudflare CFSSL License</a></td>
-		</tr>
-		<tr>
-			<td>dcos-diagnostics</td>
-			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
 		</tr>
 		<tr>
 			<td>adminrouter</td>
@@ -41,6 +33,14 @@ The below table lists the third party open source software which is provided by 
 		<tr>
 			<td>curl</td>
 			<td><U><FONT COLOR="#0000FF"><A HREF="https://curl.haxx.se/docs/copyright.html">https://curl.haxx.se/docs/copyright.html</A></U></td>
+		</tr>
+		<tr>
+			<td>dcos-ca</td>
+			<td><a href="https://github.com/cloudflare/cfssl/blob/master/LICENSE">Cloudflare CFSSL License</a></td>
+		</tr>
+		<tr>
+			<td>dcos-diagnostics</td>
+			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
 		</tr>
 		<tr>
 			<td>dcos-history-service</td>
@@ -68,6 +68,10 @@ The below table lists the third party open source software which is provided by 
 		</tr>
 		<tr>
 			<td>exhibitor</td>
+			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
+		</tr>
+		<tr>
+			<td>dvdcli</td>
 			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
 		</tr>
 		<tr>
@@ -163,6 +167,10 @@ The below table lists the third party open source software which is provided by 
 			<td><a href="https://github.com/weapp/boto/blob/master/LICENSE.txt">MIT License</a></td>
 		</tr>
 		<tr>
+			<td>rexray</td>
+			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
+		</tr>
+		<tr>
 			<td>spartan</td>
 			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
 		</tr>
@@ -176,14 +184,6 @@ The below table lists the third party open source software which is provided by 
 		</tr>
 		<tr>
 			<td>zk-value-consensus</td>
-			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
-		</tr>
-		<tr>
-			<td>rexray</td>
-			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
-		</tr>
-		<tr>
-			<td>dvdcli</td>
 			<td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a></td>
 		</tr>
 </table>
