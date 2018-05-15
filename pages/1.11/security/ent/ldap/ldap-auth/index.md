@@ -1,10 +1,9 @@
 ---
 layout: layout.pug
-navigationTitle:  >
+navigationTitle:  LDAP Authentication and Parameters
 title: Specifying LDAP Authentication and Parameters
 menuWeight: 2
-excerpt: Specifying authentication method and
-parameters
+excerpt: Specifying authentication method and parameters
 enterprise: true
 ---
 <!-- The source repository for this topic is https://github.com/dcos/dcos-docs-site -->

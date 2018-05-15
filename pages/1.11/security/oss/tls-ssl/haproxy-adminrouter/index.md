@@ -1,6 +1,6 @@
 ---
 layout: layout.pug
-excerpt: Configuring HAProxy in front of an Admin Router
+excerpt: SEttingup an HTTP proxy in front of the DC/OS Admin Router
 title: Configuring HAProxy in Front of Admin Router
 navigationTitle: HAProxy in Front of Admin Router
 menuWeight: 6

@@ -3,16 +3,12 @@ layout: layout.pug
 navigationTitle:  Networking
 title: Networking
 menuWeight: 70
-excerpt: Learn about the DC/OS networking stack
+excerpt: Understanding the DC/OS networking stack
 
 enterprise: false
 ---
 
-<!-- The source repo for this topic is https://github.com/dcos/dcos-docs -->
-
 The DC/OS network stack provides IP connectivity to containers, has built-in DNS-based service discovery, and provides layer 4 and layer 7 load balancing.
-
-The following sections describe these features in more detail.
 
 # IP connectivity
 A container running on DC/OS can obtain an IP address using one of the three networking modes:
