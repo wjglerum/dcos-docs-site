@@ -3,7 +3,7 @@ layout: layout.pug
 navigationTitle:  Logging
 title: Logging
 menuWeight: 3
-excerpt: Learn about diagnostic and status logs for DC/OS core components and services
+excerpt: Understanding the diagnostic and status logs for DC/OS core components and services
 beta: true
 enterprise: false
 ---
