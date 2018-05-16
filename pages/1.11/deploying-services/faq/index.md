@@ -1,9 +1,9 @@
 ---
 layout: layout.pug
-navigationTitle:  Frequently Asked Questions
-title: Frequently Asked Questions
+navigationTitle:  Frequently Asked Questions about Deploying Services
+title: Frequently Asked Questions about Deploying Services
 menuWeight: 120
-excerpt:
+excerpt: Frequently asked questions about using DC/OS 
 
 enterprise: false
 ---

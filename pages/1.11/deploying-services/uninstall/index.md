@@ -3,15 +3,13 @@ layout: layout.pug
 navigationTitle:  Uninstalling Services
 title: Uninstalling Services
 menuWeight: 7
-excerpt:
+excerpt: Uninstalling services from the CLI and web interface
 
 enterprise: false
 ---
 
-<!-- This source repo for this topic is https://github.com/dcos/dcos-docs -->
 
-
-Services can be uninstalled from the CLI. If a Universe service has any reserved resources, you also need to run the framework cleaner script. The [framework cleaner script](#framework-cleaner) removes the service instance from ZooKeeper, along with any data associated with it.
+Services can be uninstalled from the CLI or the web interface. If a Universe service has any reserved resources, you also need to run the framework cleaner script. The [framework cleaner script](#framework-cleaner) removes the service instance from ZooKeeper, along with any data associated with it.
 
 # Uninstalling Universe services
 
@@ -41,7 +39,7 @@ From the DC/OS web interface you can uninstall services from the **Services** ta
 
 ## Troubleshooting
 
-It's possible for an uninstall to fail with the following error message:
+It is possible for an uninstall to fail with the following error message:
 
 ```
 Incomplete uninstall of package [chronos] due to Mesos unavailability
@@ -85,7 +83,7 @@ From the DC/OS web interface you can uninstall services from the **Services**. T
 
 ## <a name="framework-cleaner"></a>Cleaning up ZooKeeper
 
-### About Cleaning up ZooKeeper
+### Cleaning up ZooKeeper
 
 If your service has reserved resources, you can use the framework cleaner docker image, `mesosphere/janitor`, to simplify the process of removing your service instance from ZooKeeper and destroying all the data associated with it.
 

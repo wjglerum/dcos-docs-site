@@ -3,11 +3,9 @@ layout: layout.pug
 navigationTitle:  Universal Container Runtime (UCR)
 title: Universal Container Runtime (UCR)
 menuWeight: 10
-excerpt: How to use the UCR to launch Mesos containers
+excerpt: Launching Mesos containers from the UCR
 enterprise: false
 ---
-
-<!-- This source repo for this topic is https://github.com/dcos/dcos-docs -->
 
 
 The [Universal Container Runtime (UCR)](http://mesos.apache.org/documentation/latest/container-image) launches Mesos containers from binary executables and extends the Mesos container runtime to support provisioning [Docker](https://docker.com/) images. The UCR has many [advantages](/1.11/deploying-services/containerizers/) over the Docker Engine for running Docker images. Use the Docker Engine only if you need specific [features](/1.11/deploying-services/containerizers/#container-runtime-features) of the Docker package.

@@ -3,7 +3,7 @@ layout: layout.pug
 navigationTitle:  Marathon Placement Constrainsts
 title: Marathon Placement Constrainsts
 menuWeight: 3
-excerpt:
+excerpt: Controlling where services run
 
 enterprise: false
 ---

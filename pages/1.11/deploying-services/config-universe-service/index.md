@@ -3,7 +3,7 @@ layout: layout.pug
 navigationTitle:  Configuring Universe Services
 title: Configuring Universe Services
 menuWeight: 2
-excerpt: How to discover and change default parameters
+excerpt: Configuring Services with the DC/OS CLI and web interface
 
 enterprise: false
 ---

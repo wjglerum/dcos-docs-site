@@ -3,17 +3,15 @@ layout: layout.pug
 navigationTitle:  Installing Services
 title: Installing Services
 menuWeight: 0
-excerpt:
+excerpt: Installing and verifying services using the DC/OS CLI or web interface
 
 enterprise: false
 ---
 
-<!-- This source repo for this topic is https://github.com/dcos/dcos-docs -->
-
 
 ## Installing a service using the CLI
 
-The general syntax for installing a service with the CLI follows.
+The general syntax for installing a service using the CLI is:
 
 ```bash
 dcos package install [--options=<config-file-name>.json] <servicename>

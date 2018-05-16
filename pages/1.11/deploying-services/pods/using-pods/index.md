@@ -3,11 +3,9 @@ layout: layout.pug
 navigationTitle:  Using Pods
 title: Using Pods
 menuWeight: 20
-excerpt:
+excerpt: Creating and managing pods using the CLI or web interface
 enterprise: false
 ---
-
-<!-- This source repo for this topic is https://github.com/dcos/dcos-docs -->
 
 
 You can create and manage your pods via the DC/OS CLI or via the `/v2/pods/` endpoint of the [Marathon API](/1.11/deploying-services/marathon-api/).

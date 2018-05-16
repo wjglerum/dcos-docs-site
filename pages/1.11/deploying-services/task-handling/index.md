@@ -3,12 +3,10 @@ layout: layout.pug
 navigationTitle:  Task Handling
 title: Task Handling
 menuWeight: 1
-excerpt:
+excerpt: Understanding the status of a task
 
 enterprise: false
 ---
-
-<!-- This source repo for this topic is https://github.com/dcos/dcos-docs -->
 
 
 Marathon sorts tasks into these categories: initial, non-terminal, and terminal. Tasks within these categories may have one of several statuses, as summarized in the diagram below.
