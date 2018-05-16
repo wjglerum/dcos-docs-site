@@ -1,7 +1,7 @@
 ---
 layout: layout.pug
 navigationTitle:  Deploying First Application
-excerpt: Part 3 - Deploying your first application
+excerpt:
 title: Deploying First Application
 menuWeight: 3
 ---
@@ -17,7 +17,7 @@ Welcome to part 3 of the DC/OS 101 Tutorial
 
 # Objective
 You now have a working persistence layer - [Redis](https://redislabs.com/) - running in your cluster.
-In this section you will deploy a simple app connecting to Redis.
+In this section you will deploy a simple app connecting to Redis. 
 
 # Steps
 * Review app
