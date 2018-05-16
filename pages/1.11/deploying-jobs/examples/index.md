@@ -3,7 +3,7 @@ layout: layout.pug
 navigationTitle:  Examples
 title: Job Examples
 menuWeight: 20
-excerpt: Examples of common usage scenarios for jobs.
+excerpt: Examples of common usage scenarios for jobs
 beta: true
 enterprise: true
 ---
