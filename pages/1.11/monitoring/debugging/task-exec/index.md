@@ -4,7 +4,7 @@ navigationTitle:  Using dcos task exec
 title: Using dcos task exec
 menuWeight: 20
 excerpt: Understanding command execution inside a task container
-beta: true
+beta: false
 enterprise: false
 ---
 

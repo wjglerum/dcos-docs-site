@@ -3,12 +3,10 @@ layout: layout.pug
 navigationTitle:  Storage
 title: Storage
 menuWeight: 90
-excerpt: Learn how to preserve your application in case of termination and relaunch
+excerpt: Preserving your application in case of termination and relaunch
 
 enterprise: false
 ---
-
-<!-- The source repo for this topic is https://github.com/dcos/dcos-docs -->
 
 This section will show you how to create stateful applications to preserve your application in case of termination and relaunch.
 

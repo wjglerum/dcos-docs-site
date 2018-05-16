@@ -1,23 +1,15 @@
 ---
 layout: layout.pug
-navigationTitle:  >
-title: >
-  Adding an OpenID Connect identity
-  provider
+navigationTitle: Adding an OpenID Connect identity provider
+title: Adding an OpenID Connect identity provider
 menuWeight: 2
-excerpt: >
-  This topic discusses OpenID Connect IdPs
-  in general and provides a step-by-step
-  procedure for setting up a Google OpenID
-  Connect IdP.
+excerpt: Adding an OpenID Connect identity provider
 
 enterprise: true
 ---
 <!-- The source repository for this topic is https://github.com/dcos/dcos-docs-site -->
 
-<!-- Note from editor: This is a 'hidden' page, so do not add a navigationTitle value other than a blank or a > character. -->
-
-
+This topic discusses OpenID Connect IdPs in general and provides a step-by-step procedure for setting up a Google OpenID Connect IdP.
 
 # About adding an OpenID Connect identity provider
 

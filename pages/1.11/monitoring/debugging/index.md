@@ -4,7 +4,7 @@ navigationTitle:  Debugging
 title: Debugging
 menuWeight: 115
 excerpt: Understanding DC/OS debugging tools
-beta: true
+beta: false
 enterprise: false
 ---
 
