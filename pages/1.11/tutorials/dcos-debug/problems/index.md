@@ -1,7 +1,7 @@
 ---
 layout: layout.pug
 title: Problems
-excerpt: What sorts of problems might arise for application deployments?
+excerpt: What sorts of problems might arise for application deployments
 menuWeight: 1
 ---
 

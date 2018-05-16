@@ -1,6 +1,6 @@
 ---
 layout: layout.pug
-excerpt:
+excerpt: Part 1 - Installing the DC/OS CLI on your cluster
 title: First Steps
 navigationTitle: First Steps
 menuWeight: 1
