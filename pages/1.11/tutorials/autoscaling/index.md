@@ -3,7 +3,7 @@ layout: layout.pug
 navigationTitle:  Autoscaling with Marathon
 title: Autoscaling with Marathon
 menuWeight: 3
-excerpt:
+excerpt: Learn to autoscale computing resources based on usage
 ---
 
 

@@ -1,10 +1,9 @@
 ---
 layout: layout.pug
-navigationTitle:  >
-title: >
-  Autoscaling using requests per second
+navigationTitle: Autoscaling using requests per second
+title:  Autoscaling using requests per second
 menuWeight: 1
-excerpt:
+excerpt: Learn to use the Marathon-LB autoscale app 
 
 enterprise: false
 ---

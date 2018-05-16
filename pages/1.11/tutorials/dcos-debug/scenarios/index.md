@@ -1,7 +1,7 @@
 ---
 layout: layout.pug
 title: Practice Deployment Debugging Scenarios on DC/OS
-excerpt: Now apply the application debugging
+excerpt: Practicing application debugging
 menuWeight: 31
 ---
 
