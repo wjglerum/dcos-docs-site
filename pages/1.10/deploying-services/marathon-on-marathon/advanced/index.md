@@ -4,6 +4,7 @@ navigationTitle:  Deploying Services using a Custom Marathon with Security Featu
 title: Deploying Services using a Custom Marathon with Security Features
 menuWeight: 40
 excerpt: Using an advanced, non-native instance of Marathon
+preview: true
 enterprise: true
 
 ---
