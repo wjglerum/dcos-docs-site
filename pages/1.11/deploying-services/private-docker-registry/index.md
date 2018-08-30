@@ -129,13 +129,13 @@ Follow these steps to add your Docker registry credentials to the [DC/OS Enterpr
    **Note:** As of DC/OS version 1.10.0, you can add a file to the secret store only using the DC/OS CLI.
 
    ```bash
-   dcos security secrets create --value-file=config.json <path/to/secret>
+   dcos security secrets create -f config.json <path/to/secret>
    ```
 
    If you plan to follow the example below, enter the following command to add the secret:
 
    ```bash
-   dcos security secrets create --value-file=config.json mesos-docker/pullConfig
+   dcos security secrets create -f config.json mesos-docker/pullConfig
    ```
 
 ## Step 2: Add the secret to your service or pod definition
@@ -228,3 +228,43 @@ Follow these steps to add your Docker registry credentials to the [DC/OS Enterpr
       ```
 
    The Docker image will now pull using the provided security credentials.
+
+
+<a name="tarball-instructions"></a>
+# Pushing a custom image to the private repository from tarball
+
+In some cases, you might have obtained a docker image in a form of a `.tar` archive (ex. if you asked your sales representative for an enterprise version of marathon). To deploy that image on your registry, follow these steps:
+
+1. Load the tarball into your local Docker client, passing the filename of your custom tarball. For example, `marathon-dcos-ee.<version>.tar`:
+   ```bash
+   docker load -i marathon-dcos-ee.<version>.tar
+   ```
+
+    **Tip:** You can view the Marathon image with this command.
+
+    ```
+    docker images
+    ```
+
+    You should see output similar to this:
+
+    ```bash
+    REPOSITORY                    TAG                 IMAGE ID            CREATED             SIZE
+    mesosphere/marathon-dcos-ee   1.4.0-RC4_1.9.4     d1ffa68a50c0        3 months ago        926.4 MB
+    ```
+1. Re-tag the file to match the repository that you are using in your private Docker registry:
+   ```bash
+   docker tag \
+    mesosphere/marathon-dcos-ee:<mesosphere-tag> \
+    <your-repo>/marathon-dcos-ee:<your-tag>
+   ```
+
+   Where:
+
+   - `<mesosphere-tag>` is the tag of the image from Mesosphere. Typically, this will match the version number in the filename.
+   - `<your-repo>` is the name of the private repository that you want to store the image in.
+   - `<your-tag>` is the tag for the image. It is recommended that you use the same tag as the Mesosphere image.
+1. Push the new image to your private Docker registry:
+   ```bash
+   docker push <your-repo>/marathon-dcos-ee:<your-tag>
+   ```
