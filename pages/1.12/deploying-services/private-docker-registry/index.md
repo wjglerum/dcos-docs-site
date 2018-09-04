@@ -231,13 +231,13 @@ Follow these steps to add your Docker registry credentials to the [DC/OS Enterpr
 
 
 <a name="tarball-instructions"></a>
-# Pushing a custom image to the private repository from tarball
+# Pushing a custom image to a private registry from a tarball
 
-In some cases, you might have obtained a docker image in a form of a `.tar` archive (ex. if you asked your sales representative for an enterprise version of marathon). To deploy that image on your registry, follow these steps:
+In some cases, you might have obtained a Docker image in a form of a `.tar` archive (ex. if you asked your sales representative for an enterprise version of marathon). To deploy that image to your registry, follow these steps:
 
 ## Step 1: Import in the local machine
 
-1. Load the tarball into your local Docker client, passing the filename of your custom tarball. For example, `marathon-dcos-ee.<version>.tar`:
+1. Load the tarball into your local Docker client, passing the path to your custom tarball. For example, `marathon-dcos-ee.<version>.tar`:
    ```bash
    docker load -i marathon-dcos-ee.<version>.tar
    ```
@@ -273,4 +273,3 @@ In some cases, you might have obtained a docker image in a form of a `.tar` arch
    ```bash
    docker push <your-repo>/marathon-dcos-ee:<your-tag>
    ```
-
