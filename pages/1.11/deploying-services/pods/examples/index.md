@@ -54,7 +54,7 @@ This pod, named `simple-pod` has a single container, `simpletask1`. The containe
 | `volumes.host`                | string  | Absolute path of the file or directory on the agent, or else the relative path of the directory in the executor's sandbox. Useful for mapping directories that exist on the agent or within the executor sandbox. |
 | `networks`              | array        |  Accepts the following parameters: `mode`, `name`, and `labels`.                                                                                                                                                                                                                 |
 | `networks.mode`                | string  | Network mode: `host` or `container`. `host` uses the network namespace of the host. `container` uses virtual networking, and a virtual network name must be specified.                                            |
-| `networks:name`                | string  | Required for `container` network mode.                                                                                                                                                                            |
+| `networks.name`                | string  | Required for `container` network mode.                                                                                                                                                                            |
 | `networks.labels`              | object  | Key/value pairs (i.e., for passing metadata to Mesos modules).                                                                                                                                                    |
 | `scaling`               | array        |  Accepts the following parameters: `kind`, `instances`, and `maxInstances`.                                                                                                                                                                                                                 |
 | `scaling.kind`                | string  | Type of scaling. Only `fixed` is currently supported.                                                                                                                                                             |
@@ -364,11 +364,11 @@ The example below shows a pod, `test-pod`, with three containers, `healthtask1`,
 | `healthCheck.timeoutSeconds`         | integer | Time to wait until health check is complete (default: 20).                                                              |
 | `healthCheck.delaySeconds`           | integer | Time to wait until starting health check (default: 2).                                                                  |
 | `artifacts`                    | array   | Array of artifact objects                                                                                               |
-| `healthCheck.uri`                    | strings | URI to resources to download (i.e., `.tgz`, `tar.gz`, `.zip`, `.txz`, etc).                                                     |
-| `healthCheck.extract`                | boolean | Extract fetched artifact.                                                                                               |
-| `healthCheck.executable`             | boolean | Set fetched artifact as executable.                                                                                     |
-| `healthCheck.cache`                  | boolean | Cache fetched artifact.                                                                                                 |
-| `healthCheck.destPath`               | strings | Destination path of artifact.                                                                                           |
+| `artifacts.uri`                    | strings | URI to resources to download (i.e., `.tgz`, `tar.gz`, `.zip`, `.txz`, etc).                                                     |
+| `artifacts.extract`                | boolean | Extract fetched artifact.                                                                                               |
+| `artifacts.executable`             | boolean | Set fetched artifact as executable.                                                                                     |
+| `artifacts.cache`                  | boolean | Cache fetched artifact.                                                                                                 |
+| `artifacts.destPath`               | strings | Destination path of artifact.                                                                                           |
 
 # A pod with multiple containers
 
